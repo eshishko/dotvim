@@ -62,3 +62,6 @@ else
     let &t_SI = "\<Esc>]50;CursorShape=1\x7"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
+
+map <silent> <F8>   :Explore<CR>
+map <silent> <S-F8> :sp +Explore<CR>
